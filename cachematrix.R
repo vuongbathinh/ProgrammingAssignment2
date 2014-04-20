@@ -1,7 +1,7 @@
 #### There are two function use to create a matrix can cache its inverse
 
 
-## Function use to create a matrix that can cache its inverse by
+## Function uses to create a matrix that can cache its inverse by
 ## using special operator "<<-"
 
 makeCacheMatrix <- function(x = matrix()){
@@ -19,8 +19,8 @@ makeCacheMatrix <- function(x = matrix()){
 }
 
 
-## Function use to calculate the inverse of 'x', if its inverse existed,
-## function will get the cached inverse, else function calculate new inverse
+## Function uses to calculate the inverse of 'x', if its inverse exists,
+## function will get the cached inverse, else function will calculate new inverse
 
 cacheSolve <- function(x,...){
   ##Return a matrix that is the inverse of 'x'
